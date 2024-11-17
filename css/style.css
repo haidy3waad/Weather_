@@ -1,0 +1,185 @@
+.home {
+    height: 120vh;
+    background-image: url(../imgs/pexels-photo-417045\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+html {
+    box-sizing: border-box;
+  }
+
+/* body{
+    font-family: "Poppins", sans-serif;
+} */
+
+.home .container .navbar-brand .img-logo {
+    width: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.home .container .navbar {
+    padding: 50px 0px;
+}
+
+.home .container .navbar-brand .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.home .container .navbar-brand .logo-type .logo {
+    font-size: 1.1428571429em;
+    font-weight: 700;
+    display: block;
+    line-height: normal;
+
+}
+
+.home .container .navbar-brand .logo-type .site-description {
+    font-size: 0.7142857143em;
+    color: #a4aabd;
+    display: block;
+}
+
+.home .container ul li {
+    border-radius: 30px;
+    border: 2px solid transparent;
+    color: white;
+    text-align: center;
+    list-style: none;
+    margin: 20px 5px;
+    padding: 0px 15px;
+    font-weight: 400;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.home .container ul li:hover {
+    border: 2px solid;
+}
+
+
+.search {
+    width: 100% !important;
+}
+
+.search-container .search {
+    margin: 100px 0px;
+    
+}
+
+
+.home .container .cards .card {
+    background-color: rgba(0, 0, 0, 0.48);
+    border-color: #a4aabd;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.home .container .cards .card .degree{
+    font-family: "Kardust";
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.home .container .row {
+    margin-left: 30px;
+
+}
+
+.home .container .cards .card .card-header {
+    font-weight: bold;
+    font-family: "Kardust";
+   
+}
+
+.home .container .cards .card .card-header .day {
+    text-align: center;
+}
+
+.home .container .cards .card-body .card-text {
+    margin: 20px 0px;
+}
+
+.home .container .cards .card-body .location {
+    color: #a4aabd;
+    font-weight: 500;
+}
+
+
+
+.home .container .cards .card-body .card-title {
+    font-size: 70px;
+}
+
+.home .container .cards .card .weather-details span {
+    padding: 10px 5px;
+    font-size: 0.9rem;
+
+}
+
+.home .container .cards .card .weather-details img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.search-container .btnSub {
+    margin: 50px 0px 70px 0px;
+}
+
+.search-container .search-sub {
+    width: 85% !important;
+    margin: 50px 0px;
+    
+}
+
+
+.desc-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.desc-icons .desc {
+    color: slategray;
+}
+
+
+footer {
+    padding: 5px 0;
+    background-color: whitesmoke;
+  
+}
+
+.search-container {
+    margin-bottom: 0px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px;
+
+}
+
+.social-icons .icon {
+    padding: 0px 10px;
+    width: 40px;
+    height: 40px;
+    background-color: slategray;
+    color: white;
+    transition: all 0.5s;
+
+
+}
+.social-icons .icon:hover{
+    background-color: rgb(14, 23, 33);
+}
+
